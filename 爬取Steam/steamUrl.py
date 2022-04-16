@@ -66,7 +66,6 @@ def save_img(imglist,header,Htmlfile):
 if __name__=="__main__":
     header={"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.74 Safari/537.36"}
     page=0
-    #爬取两页帖子
     page_in=eval(input("输入爬取的页数"))
     if page_in>20961:
         page_in=20961

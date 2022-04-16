@@ -1,8 +1,14 @@
 # 个人实战爬虫小项目合集
-
-## 1、爬取Steam百度贴吧——————爬取Steam文件
+a
+## 1、爬取Steam百度贴吧(难度简单)
 ### 案例：百度贴吧帖子获取 
-目标url：https://tieba.baidu.com/f?kw=steam 
+**目标url**：https://tieba.baidu.com/f?kw=steam 
+
 **获取内容：**
 帖子的列表页：获取前两页的帖子链接
 对每个帖子内容进行解析，获取每个帖子第一页的图片，下载到本地 images 文件中
+
+技术栈：bs4+requests
+
+程序思路：由于网站有限制IP访问频率这一点要注意，静态网页其他没什么大问题
+
